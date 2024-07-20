@@ -4,7 +4,7 @@ This repository contains the Jupyter notebook "Recent Methods in Transformers.ip
 
 ## Covered Methods
 
-<img src="./table_of_methods.png" width="650" height="800">
+<img src="./table_of_methods.png" width="650" height="700">
 
 - **FlashAttention**: Optimizes the efficiency of attention mechanisms, reducing computational and memory demands.
 - **MatMul-Free Transformers**: Eliminates traditional matrix multiplication in favor of simpler arithmetic operations to speed up processing.
