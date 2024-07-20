@@ -2,9 +2,9 @@
 
 This repository contains the Jupyter notebook "Recent Methods in Transformers.ipynb," which provides a detailed exploration of cutting-edge techniques in transformer models. Each method is explained with intuitive descriptions, some mathematical insights, and simple implementations.
 
-<img src="./table_of_methods.png" width="650" height="800">
-
 ## Covered Methods
+
+<img src="./table_of_methods.png" width="650" height="800">
 
 - **FlashAttention**: Optimizes the efficiency of attention mechanisms, reducing computational and memory demands.
 - **MatMul-Free Transformers**: Eliminates traditional matrix multiplication in favor of simpler arithmetic operations to speed up processing.
