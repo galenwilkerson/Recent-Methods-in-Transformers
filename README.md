@@ -1,10 +1,15 @@
 # Recent Methods in Transformers
 
-This repository contains the Jupyter notebook "Recent Methods in Transformers.ipynb" which provides an overview of cutting-edge techniques in transformer models. The notebook includes theoretical explanations, practical code examples, and discussions on the implications of these new methods in the field of natural language processing.
+This repository contains the Jupyter notebook "Recent Methods in Transformers.ipynb," which provides a detailed exploration of cutting-edge techniques in transformer models. Each method is explained with intuitive descriptions, some mathematical insights, and simple implementations.
 
-## Repository Contents
+## Covered Methods
 
-- **Recent Methods in Transformers.ipynb**: A Jupyter notebook that dives deep into recent advancements in transformer technology. It covers various topics including FlashAttention, MatMul-Free Transformers, and more, providing both high-level overviews and detailed technical implementations.
+- **FlashAttention**: Optimizes the efficiency of attention mechanisms, reducing computational and memory demands.
+- **MatMul-Free Transformers**: Eliminates traditional matrix multiplication in favor of simpler arithmetic operations to speed up processing.
+- **The Mamba Architecture**: Leverages structured state space models to handle long sequences more efficiently by focusing on selective memory mechanisms.
+- **Tandem Transformers**: Utilizes a two-model system where the primary model processes input and a secondary model refines the output, enhancing performance.
+- **Advanced Positional Embeddings (ALiBi and RoPE)**: Enhances the understanding of sequence order, improving positional awareness in tasks requiring deep contextual interpretation.
+- **Prompt Learning**: Adapts pre-trained models to new tasks using minimal training, by employing carefully crafted prompts to direct the model's focus.
 
 ## Getting Started
 
@@ -41,21 +46,10 @@ To get started with this repository, you will need to have Python installed, alo
    ```
 5. Open the `Recent Methods in Transformers.ipynb` notebook and run the cells.
 
-## Features
-
-- **FlashAttention**: Explore the optimization of attention mechanisms for improved efficiency and performance.
-- **MatMul-Free Transformers**: Learn about reducing computational overhead by eliminating traditional matrix multiplication.
-- **Interactive Code**: Each section includes executable code blocks that allow for hands-on learning and experimentation.
-
 ## Contributing
 
-Contributions to this project are welcome! Please feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions to this project are welcome! Please feel free to fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Thanks to all the contributors who have invested their time in improving transformer technologies.
-- Special thanks to those who have provided public datasets and libraries that facilitate research and development in AI.
