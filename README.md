@@ -10,6 +10,9 @@ This repository contains the Jupyter notebook "Recent Methods in Transformers.ip
 - **Tandem Transformers**: Utilizes a two-model system where the primary model processes input and a secondary model refines the output, enhancing performance.
 - **Advanced Positional Embeddings (ALiBi and RoPE)**: Enhances the understanding of sequence order, improving positional awareness in tasks requiring deep contextual interpretation.
 - **Prompt Learning**: Adapts pre-trained models to new tasks using minimal training, by employing carefully crafted prompts to direct the model's focus.
+- **LoRA (Low-Rank Adaptation)**: Introduces low-rank matrices to transformer models to adapt pre-trained weights effectively with minimal alterations to the model's architecture.
+- **Reformer**: Re-engineers the self-attention mechanism to optimize for memory efficiency and speed, suitable for processing very long sequences.
+- **Linformer**: Projects self-attention mechanism's key and value matrices into a lower-dimensional space, reducing memory and computational requirements.
 
 ## Getting Started
 
