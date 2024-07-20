@@ -1,4 +1,4 @@
-# Recent Methods in Transformers
+# (Some) Recent Methods in Transformers
 
 This repository contains the Jupyter notebook "Recent Methods in Transformers.ipynb," which provides a detailed exploration of cutting-edge techniques in transformer models. Each method is explained with intuitive descriptions, some mathematical insights, and simple implementations.
 
